@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/SignUpView"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingTop="200dp"
+    android:padding="50dp">
+
+    <EditText
+        android:layout_marginTop="100dp"
+        android:id="@+id/editText_signup1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textEmailAddress"
+        android:hint="ID"
+        android:layout_marginBottom="30dp" />
+
+
+    <EditText
+        android:id="@+id/editText_signup2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPassword"
+        android:hint="Password"
+        android:layout_marginBottom="30dp"/>
+
+
+    <EditText
+        android:id="@+id/editText_signup3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPassword"
+        android:hint="Password again"
+        android:layout_marginBottom="30dp"/>
+
+    <Button
+        android:id="@+id/button_signup1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sign Up"
+        android:paddingHorizontal="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"
+        android:onClick="showToast"/>
+
+</LinearLayout>
